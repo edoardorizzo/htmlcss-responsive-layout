@@ -124,11 +124,24 @@ body{
 
 /* partners */
 
+/* benefits */
+.benefits{
+    background-color: var(--purple);
+    height: fit-content;
+}
 /* media query */
 
  @media screen and (min-width: 768px) {
     
     .square .row{
+        display: flex;
+    }
+
+    .benefits .row{
+        display: flex;
+    }
+
+    .benefits .row{
         display: flex;
     }
     
