@@ -134,6 +134,12 @@ body{
     background-color: var(--purple);
     height: fit-content;
 }
+
+/* call to action */
+.call_to_action{
+    background-color: var(--purple);
+    height: fit-content;
+}
 /* media query */
 
  @media screen and (min-width: 768px) {
