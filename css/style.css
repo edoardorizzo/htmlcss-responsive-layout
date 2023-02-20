@@ -31,62 +31,81 @@ body{
 
 .col_1{
     width: calc(100% / 12 * 1);
+    margin: 1rem 0;
 }
 
 .col_2{
     width: calc(100% / 12 * 2);
+    margin: 1rem 0;
+
 }
 
 .col_3{
     width: calc(100% / 12 * 3);
+    margin: 1rem 0;
+
 }
 
 .col_4{
     width: calc(100% / 12 * 4);
     height: 200px;
     border: 1px dashed var(--dark);
-    margin-bottom: 1rem;
+    margin: 1rem 0;
+
 }
 
 .col_5{
     width: calc(100% / 12 * 5);
+    margin: 1rem 0;
+
 }
 
 .col_6{
     width: 50%;
     height: 200px;
     border: 1px dashed var(--dark);
-    margin-bottom: 1rem;
+    margin: 1rem 0;
+
 }
 
 .col_7{
     width: calc(100% / 12 * 7);
+    margin: 1rem 0;
+
 }
 
 .col_8{
     width: calc(100% / 12 * 8);
     height: 200px;
     border: 1px dashed var(--dark);
-    margin-bottom: 1rem;
+    margin: 1rem 0;
+
 }
 
 .col_9{
     width: calc(100% / 12 * 9);
+    margin: 1rem 0;
+
 }
 
 .col_10{
     width: calc(100% / 12 * 10);
+    margin: 1rem 0;
+
 }
 
 .col_11{
     width: calc(100% / 12 * 11);
+    margin: 1rem 0;
+
 }
 
 .col_12{
     width: 100%;
     height: 200px;
     border: 1px dashed var(--dark);
-    margin-bottom: 1rem;
+    margin: 1rem 0;
+
 }
 
 /* end-general */
@@ -144,18 +163,6 @@ body{
 
  @media screen and (min-width: 768px) {
     
-    .square .row{
-        display: flex;
-    }
-
-    .benefits .row{
-        display: flex;
-    }
-
-    .benefits .row{
-        display: flex;
-    }
-    
     .col_md_1{ 
         width: calc(100% / 12 * 1);
     }
@@ -212,10 +219,6 @@ body{
 }
 
 @media screen and (min-width: 991px) {
-    
-    .strategic .row{
-        display: flex;
-    }
     
     .col_lg_1{
         width: calc(100% / 12 * 1);
