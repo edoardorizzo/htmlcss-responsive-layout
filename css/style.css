@@ -330,6 +330,34 @@ body{
     height: fit-content;
 }
 
+.card_benefit{
+    background-color: var(--light);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 1rem;
+}
+
+.card_benefit h2, h3{
+    color: var(--purple);
+    margin: 1rem 0;
+}
+
+.card_benefit h2{
+    font-size: 40px;
+}
+
+.card_benefit p{
+    margin: 1rem 0;
+}
+
+.tertiary_btn{
+    background-color: var(--purple);
+    color: var(--light);
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 1rem;
+}
+
 /* call to action */
 .call_to_action{
     background-color: var(--purple);
