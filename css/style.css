@@ -20,7 +20,7 @@ body{
     --orange: #FDC15F;
     --dark: #333333;
     --light: #FFFFFF;
-    --grey: #e3e3e3; 
+    --grey: #d6d6d6; 
 }
 
 .row {
@@ -442,6 +442,27 @@ body{
 
 .call_to_action a{
     color: var(--light);
+}
+
+/* web footer */
+
+#web_footer{
+    background-color: var(--dark);
+    color: var(--light);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.disclaimer{
+    margin: 1rem;
+}
+
+.right{
+    margin: 1rem;
+}
+
+.right a{
+    color: var(--purple);
 }
 
 
