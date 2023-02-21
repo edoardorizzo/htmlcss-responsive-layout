@@ -214,6 +214,7 @@ body{
     padding: 1rem;
     text-align: center;
     margin: 0 1rem;
+    height: 100%;
 }
 
 .square_card h3 {
@@ -228,15 +229,99 @@ body{
 
 
 
-
-
 /* strategic */
 .strategic{
     background-color: var(--purple);
     height: fit-content;
 }
 
+.strategic_content{
+    color: var(--light);
+}
+
+.strategic_content img{
+    width: 100%;
+}
+
+.strategic_content h2{
+    margin: 1rem 0;
+}
+
+.strategic_content p{
+    margin: 1rem 0;
+}
+
+.strategic_right_img{
+    background-color: var(--light);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.strategic_right_img img{
+    max-width: 100%;
+}
+
+.strategic_right_img h4{
+    margin: 1rem 0;
+}
+
+.strategic_right_img p{
+    margin: 1rem 0;
+}
+
+.strategic_icon{
+    background-color: var(--purple);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* partners */
+
+.partners_title{
+    text-align: center;
+    margin: auto;
+}
+
+.partners_title .testimonial{
+    margin: 1rem;
+}
+
+.partners_title h2{
+    color: var(--purple);
+    margin: 1rem;
+}
+
+.partners_card{
+    background-color: var(--purple);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: var(--light);
+    text-align: center;
+}
+
+.testimonial_container{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.testimonial_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.partners_card p{
+    margin: 1rem 0;
+}
 
 /* benefits */
 .benefits{
@@ -315,7 +400,11 @@ body{
     .big_square_card{
         display: flex;
     }
-        
+       
+    .strategic_right_img{
+        margin-top: 20rem;
+        margin-left: 2rem;
+    }
     
     .col_lg_1{
         width: calc(100% / 12 * 1);
