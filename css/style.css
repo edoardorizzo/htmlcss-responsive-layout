@@ -127,6 +127,7 @@ body{
 
 .header_logo{
     height: 40px;
+    margin-left: 1rem;
 }
 
 .header_logo img{
@@ -137,6 +138,7 @@ body{
     height: 40px;
     width: 100%;
     display: none;
+    margin-right: 1rem;
 }
 
 .navbar ul{
@@ -161,6 +163,7 @@ body{
 
 .hamburger i{
     color: var(--light);
+    margin-right: 1rem;
 }
 
 /* square */
@@ -233,7 +236,10 @@ body{
 /* strategic */
 .strategic{
     background-color: var(--purple);
-    height: fit-content;
+}
+
+.strategic .row{
+    margin: 0 1rem;
 }
 
 .strategic_content{
@@ -288,6 +294,10 @@ body{
 .partners_title{
     text-align: center;
     margin: auto;
+}
+
+.partners .row{
+    margin: auto 1rem;
 }
 
 .partners_title .testimonial{
